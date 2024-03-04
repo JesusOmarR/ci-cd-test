@@ -1,0 +1,12 @@
+name: Test
+
+on:
+  push:
+    branches: -main
+
+jobs:
+  hello-world:
+    runs-on:
+    steps:
+      - name: Echo the message
+        run: echo "Hola mundo"
